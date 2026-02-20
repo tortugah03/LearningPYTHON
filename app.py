@@ -1,4 +1,4 @@
-import math
+import math  # importing the math module to use its functions
 
 print("hello Danilito 👽")
 print("*" * 10)
@@ -64,7 +64,7 @@ full = f"{len(first)} {last}"
 
 print(full)
 
-###############################################
+# 48:48
 # now we are you g to look at "." that brings up functions or methods
 # course.upper()  method that converts the string to uppercase
 # course.lower()  method that converts the string to lowercase
