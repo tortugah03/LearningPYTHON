@@ -71,25 +71,33 @@ print(full)
 
 print(course.upper())
 print(course.lower())
-print(course.title())  # method that converts the string to title case
+# method that converts the first letter of each word to uppercase
+print(course.title())
 # method that removes whitespace from the beginning and end of the string
 print(course.strip())
 # you can also use .lstrip() and.rstrip() to remove whitespace from the left or right side of the string respectively
 # method that returns the index of the first occurrence of the specified value
 print(course.find("y"))
+# if there is no match, it returns -1
+print(course.find("z"))
+
+print("\n")
+
 # method that replaces a specified value with another value
 print(course.replace("beginners", "absolute beginners"))
+
 # method that checks if a specified value is present in the string, returns True or False
 print("python" in course)
 print("Python" in course)  # case sensitive
+
 # method that checks if a specified value is not present in the string, returns True or False
 print("swift" not in course)
 
-#
+
 # Numbers. three tyoes of numbers
 # integers
 # floating point numbers
-# complex numbers
+# complex numbers = a+bi, where a and b are real numbers and i is the imaginary unit
 
 print(2 + 2)
 print(10 - 3)
@@ -111,5 +119,5 @@ print(x)
 # math module provides mathematical functions and they are accessed using the dot notation
 print(math.sqrt(16))  # square root
 print(round(2.9))  # rounds to the nearest integer
-print(abs(-2.9))  # returns the absolute value
-print(math.ceil(2.2))  # rounds up to the nearest integer
+print(abs(-2.9))  # returns the absolute value without the negative sign
+print(math.ceil(2.1))  # rounds up to the nearest integer
