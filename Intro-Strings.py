@@ -87,37 +87,9 @@ print("\n")
 print(course.replace("beginners", "absolute beginners"))
 
 # method that checks if a specified value is present in the string, returns True or False
+# boolean expression that checks if "python" is in the course string, returns True or False
 print("python" in course)
 print("Python" in course)  # case sensitive
 
 # method that checks if a specified value is not present in the string, returns True or False
 print("swift" not in course)
-
-
-# Numbers. three tyoes of numbers
-# integers
-# floating point numbers
-# complex numbers = a+bi, where a and b are real numbers and i is the imaginary unit
-
-print(2 + 2)
-print(10 - 3)
-print(4 * 5)
-print(20 / 4)  # division always returns a float
-print(20 // 4)  # floor division returns an integer
-print(3 ** 2)  # exponentiation
-print(10 % 3)  # modulus returns the remainder
-
-x = 10
-x = x + 3  # incrementing x by 3
-# shorthand for the above operation
-x += 3
-print(x)
-
-##############################################
-# Working with numbers
-# importing modules, a module is a file that contains code
-# math module provides mathematical functions and they are accessed using the dot notation
-print(math.sqrt(16))  # square root
-print(round(2.9))  # rounds to the nearest integer
-print(abs(-2.9))  # returns the absolute value without the negative sign
-print(math.ceil(2.1))  # rounds up to the nearest integer
